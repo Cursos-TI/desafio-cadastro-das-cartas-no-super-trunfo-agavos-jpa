@@ -35,7 +35,7 @@ int main() {
 
 
     char estado_D[10] = "Sergipe";
-    char cidade_D01[10], cidade_D02[10], cidade_D03[10], cidade_D04[10];
+    char cidade_D01[10], cidade_D02[10], cidadje_D03[10], cidade_D04[10];
     int populacao_D01, populacao_D02, populacao_D03, populacao_D04;
     float area_D01, area_D02, area_D03, area_D04;
     float PIB_D01, PIB_D02, PIB_D03, PIB_D04;
@@ -45,7 +45,7 @@ int main() {
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
     
-    printf("      Bem Vindo ao jogo Super TRUNFO!!!!!          \n\n");
+    printf("Bem Vindo ao jogo Super TRUNFO!!!!!\n\n");
     printf("Vamos começar com a digitação das cartas\n\n");
     printf("Digite o nome da cidade A01: ");
     scanf("%s", &cidade_A01);
@@ -58,7 +58,7 @@ int main() {
     printf("Digite a quantidade de pontos turisticos da cidade A01: ");
     scanf("%d", &pontos_turisticos_A01);
     
-    printf("\n Obrigado por inserir os dados da cidade A01.\n");
+    printf("\nObrigado por inserir os dados da cidade A01.\n");
 
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
@@ -66,9 +66,9 @@ int main() {
     printf("Estado A: %s \n", estado_A);
     printf("Cidade A01: %s \n", cidade_A01);
     printf("Populancao da cidade A01: %d\n", populacao_A01);
-    printf("Area da cidade A01: %f \n", area_A01);
-    printf("PIB da cidade A01: %f \n", PIB_A01);
-    printf("Quantidade de pontos turisticos da cidade A01: %d \n", pontos_turisticos_A01);
+    printf("Area da cidade A01: %.2f \n", area_A01);
+    printf("PIB da cidade A01: %.2f \n", PIB_A01);
+    printf("Quantidade de pontos turisticos da cidade A01: %d \n\n\n\n", pontos_turisticos_A01);
     
     return 0;
 }
